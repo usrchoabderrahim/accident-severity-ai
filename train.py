@@ -16,8 +16,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 
 print("\n=== LOADING CSV ===")
 
-# CHANGE THIS TO YOUR REAL CSV PATH
-csv_path = "/kaggle/input/accidents-severity/caract-2024.csv"
+csv_path = "/kaggle/input/datasets/abderrahim261/accidents-severity/caract-2024.csv"
 
 df = pd.read_csv(csv_path)
 
