@@ -18,7 +18,7 @@ print("\n=== LOADING CSV ===")
 
 csv_path = "/kaggle/input/datasets/abderrahim261/accidents-severity/caract-2024.csv"
 
-df = pd.read_csv(csv_path)
+df = pd.read_csv(csv_path,sep=";")
 
 print("\nDataset shape:")
 print(df.shape)
